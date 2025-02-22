@@ -1,0 +1,5 @@
+## creamos un entorno virtual (en caso de no contar con myenv habra que instalarlo) python3 -m venv myenv
+## activamos el ambiente virtual source myenv/bin/activate
+## instalamos las dependencias de python en el entorno virutal pip install -r requeriments.txt
+## creamos un proyecto de django django-admin startproject app .
+## corremos el servidor: python manage.py runserver
